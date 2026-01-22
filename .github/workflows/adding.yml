@@ -1,0 +1,14 @@
+name: Add Two Numbers
+
+on: workflow_dispatch
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add numbers
+        run: |
+          num1=10
+          num2=20
+          sum=$((num1 + num2))
+          echo "Sum is $sum"
