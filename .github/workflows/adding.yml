@@ -9,6 +9,6 @@ jobs:
       - name: Add numbers
         run: |
           num1=25
-          num2=20
+          num2=25
           sum=$((num1 + num2))
           echo "Sum is $sum"
