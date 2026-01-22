@@ -1,4 +1,4 @@
-name: Add Two Numbers
+name: Add Three Numbers
 
 on: workflow_dispatch
 
@@ -10,5 +10,6 @@ jobs:
         run: |
           num1=25
           num2=25
-          sum=$((num1 + num2))
+          num3=10
+          sum=$((num1 + num2 + num3))
           echo "Sum is $sum"
