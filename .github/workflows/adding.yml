@@ -1,4 +1,4 @@
-name: Add Three Numbers
+name: Add four Numbers
 
 on: workflow_dispatch
 
@@ -11,5 +11,6 @@ jobs:
           num1=25
           num2=25
           num3=10
-          sum=$((num1 + num2 + num3))
+          num4=20
+          sum=$((num1 + num2 + num3 + num4))
           echo "Sum is $sum"
